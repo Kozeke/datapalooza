@@ -1,0 +1,55 @@
+/* Style for the registration container */
+.registration-container {
+  width: 50%; /* Adjust the width as needed */
+  margin: 0 auto;
+  // height: 120%;
+  padding: 20px;
+  padding-bottom:60px;
+  background-color: #f9f9f9; /* Grey background color for the container */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative; /* Set the container's position to relative */
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="address"] {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0px;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Facebook-style password field */
+input[type="password"]::placeholder {
+  color: #808080; /* Grey placeholder text color */
+  font-style: italic;
+}
+
+/* Password strength note style */
+small {
+  color: #808080; /* Grey color for the note */
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* Green color for the button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  right:10px;
+  position: absolute; /* Set the button's position to absolute */
+  bottom: 10px; /* Adjust the distance from the bottom */
+  // right: 10px; /* Adjust the distance from the right */
+}
+
+button[type="submit"]:hover {
+  background-color: #45A843; /* Darker green color on hover */
+}

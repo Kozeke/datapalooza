@@ -1,0 +1,269 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main content styles */
+.main-content {
+  margin: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+/* Add styles for the image container and text overlay */
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%; /* Vertically center the text */
+  left: 20px;
+  right: 0;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.7); /* Background overlay with 70% opacity */
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+  transform: translateY(-50%);
+}
+
+/* Adjust the styling of other elements as needed */
+
+/* Add styles for the navbar and "Reserve" button */
+header {
+  background-color: #4CAF50; /* Change the color to a positive green */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px; /* Increase font size for menu items */
+}
+
+.reserve-button {
+  background-color: #ff8800; /* Change the color to an orange for the "Reserve" button */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Adjust the styling of other elements as needed */
+/* Add styles for social icons and telephone number */
+.contact-info {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.phone-number {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Adjust the styling of other elements as needed */
+/* Add styles for services in the facility-info section */
+.facility-info {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.facility-info h2 {
+  font-size: 24px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.facility-info p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.facility-info ul {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.facility-info li {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Additional styles for the "Register" text */
+.facility-info .register-text {
+  font-size: 18px;
+  color: #4CAF50;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Adjust the styling of other elements as needed */
+/* Add styles for services in the facility-info section */
+.facility-info {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.service h3 {
+  font-size: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.service p {
+  font-size: 16px;
+  // color: #fff;
+}
+
+/* Additional styles for the "Register" text */
+.facility-info .register-text {
+  font-size: 18px;
+  color: #4CAF50;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Adjust the styling of other elements as needed */
+/* Add styles for square reviews */
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.review {
+  width: 100%;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.review p {
+  font-size: 16px;
+}
+.review p {
+  font-family: cursive, 'Comic Sans MS', 'Chalkduster', 'Brush Script MT', fantasy;
+  font-size: 16px;
+}
+/* Hover effect for reviews */
+.review {
+  transition: transform 0.3s;
+}
+
+.review:hover {
+  transform: scale(1.05); /* Enlarge the review to 105% of its original size on hover */
+  background-color: #f9f9f9; /* You can change the background color if desired */
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Hover effect for services */
+.service {
+  transition: transform 0.3s;
+}
+
+.service:hover {
+  transform: scale(1.05); /* Enlarge the service to 105% of its original size on hover */
+  background-color: #f9f9f9; /* You can change the background color if desired */
+  transition: transform 0.3s, background-color 0.3s;
+}

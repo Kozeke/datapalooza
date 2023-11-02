@@ -1,0 +1,101 @@
+/* Add styles for blog posts */
+.blog-post {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.blog-post:hover {
+  transform: scale(1.05);
+}
+
+.blog-post-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.blog-post-content img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.blog-post-content h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.author-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.author-info p {
+  margin: 5px 0;
+}
+
+.share-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add styles for the navigation bar (navbar) in the homepage */
+header {
+  background-color: #4CAF50; /* Change to the desired positive color, e.g., bright green */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+}
+
+.phone-number {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18

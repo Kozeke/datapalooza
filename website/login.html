@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Pet Caring Services</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+<body>
+ <header>
+    <div class="contact-info">
+      <div class="social-icons">
+        <a href="https://www.facebook.com"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="https://www.twitter.com"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a>
+        <a href="https://www.youtube.com"><img src="youtube-icon.png" alt="YouTube"></a>
+      </div>
+      <p class="phone-number">Call us: +1 (123) 456-7890</p>
+    </div>
+    <h1>Welcome to Pet Caring Services</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="dashboard.html">User Dashboard</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html" class="reserve-button">Reserve</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <section class="main-content">
+    <div class="registration-container">
+      <h2>Login</h2>
+      <form action="login_process.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </section>
+ <footer>
+    <p>&copy; 2023 Pet Caring Services</p>
+  </footer>
+</body>
+</html>
