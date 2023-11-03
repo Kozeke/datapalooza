@@ -48,7 +48,7 @@
         <input type="text" id="name" name="name" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name "email" required>
+        <input type="email" id="email" name="email" required>
         
         <br>
         <label for="address">Address:</label>
@@ -62,6 +62,66 @@
       </br>
         <button type="submit">Register</button>
       </form>
+      <script type="text/javascript">
+        function identify(e) {
+            e.preventDefault();
+            var form = e.target;
+            var email = form["email"].value;
+            // var title = form["title"].value;
+            // var age = form["age"].value;
+            // var gender = form["gender"].value;
+            // var comp_id = form["comp_id"].value;
+            // var comp_name = form["comp_name"].value;
+            var name = form["name"].value;
+            // var phone = form["phone"].value;
+            // var state = form["state"].value;
+            // var rating = form["rating"].value
+            // var details = form["details"].value;
+            // var home_city = form["home_city"].value;
+            // var home_zip = form["home_zip"].value;
+            // var home_country = form["home_country"].value;
+            // var home_street = form["home_street"].value;
+            var address = form["address"].value;
+            var rn = Math.floor((Math.random() * 1000000) + 1);
+            
+            analytics.identify(12345, {
+                email: email,
+                // title: title,
+                // age: age,
+                // gender: gender,
+                leadSource: 'Newsletter',
+                is_first_session: 'true',
+                clicked_random_link: 'true',
+                viewed_product: 'true',
+                // company: {
+                //     id: comp_id,
+                //     name: comp_name
+                // },
+                name: name,
+                category: 'Marketing',
+                address: address
+                // phone: phone,
+                // state: state,
+                // rating: rating,
+                // address: {
+                //     city: home_city,
+                //     postalCode: home_zip,
+                //     country: home_country,
+                //     street: home_street,
+                //     state: home_state
+                // }
+            }, {
+                'integrations': {
+                    'Salesforce': true
+                }
+            });
+
+            analytics.track('Form Submitted', {
+                type: "Lead Generation",
+            });
+
+        }
+    </script>
     </div>
   </section>
 
