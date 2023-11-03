@@ -9,7 +9,7 @@
     analytics.load("LN3BnVpSFJ24HDtbAWW8PhNdDV4Fh1Ce");
     analytics.page();
     }}();
-  </script>
+  </script> 
 </head>
 <body>
   <header>
@@ -48,7 +48,9 @@
   <section class="main-content">
     <div class="registration-container">
       <h2>Register</h2>
-      <form action="register_process.php" method="POST">
+      <!-- <form action="register_process.php" method="POST"> -->
+        <form name="form" onsubmit="identify(event)">
+
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
@@ -65,7 +67,8 @@
         
         </br>
       </br>
-        <button type="submit">Register</button>
+      <input name="submit" type="submit" value="submit" />
+        <!-- <button type="submit">Register</button> -->
       </form>
       <script type="text/javascript">
         function identify(e) {
