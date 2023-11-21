@@ -18,7 +18,7 @@ function identify(e) {
     var weight = form["weight"].value;
     var breed = form["breed"].value;
     var genfactor = form["Genetic Factors"].value;
-    var brPred = form["Breed Predisposition"].value;
+    // var brPred = form["Breed Predisposition"].value;
     var VaccinationsUpToDate = form["VaccinationsUpToDate"].value;
     var Obesity = form["Obesity"].value;
     
@@ -32,7 +32,7 @@ function identify(e) {
         category: 'Marketing',
         breed: breed,
         'Genetic Factors': genfactor,
-        'Breed Predisposition': brPred,
+        // 'Breed Predisposition': brPred,
         VaccinationsUpToDate: VaccinationsUpToDate,
         Obesity: Obesity    
 
