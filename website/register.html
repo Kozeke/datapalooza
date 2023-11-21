@@ -28,10 +28,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="dashboard.html">User Dashboard</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#" class="reserve-button">Reserve</a></li>
-        
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -69,14 +66,21 @@
       <input name="submit" type="submit" value="submit" />
       </form>
       <script type="text/javascript">
+      var id = localStorage.getItem("id")
+        if (!id){
+            id = Math.floor((Math.random() * 1000000) + 1);
+            console.log("setting new id=", rn)
+            localStorage.setItem("id", id);
+        }else{
+            console.log(id)
+        }
         function identify(e) {
             e.preventDefault();
             var form = e.target;
             var email = form["email"].value;
             var name = form["name"].value;
             var address = form["address"].value;
-            var rn = Math.floor((Math.random() * 1000000) + 1);
-            analytics.identify(12345, {
+            analytics.identify(id, {
                 email: email,
                 leadSource: 'Newsletter',
                 is_first_session: 'true',
@@ -90,7 +94,6 @@
                     'Salesforce': true
                 }
             });
-
             analytics.track('Form Submitted', {
                 type: "Lead Generation",
             });

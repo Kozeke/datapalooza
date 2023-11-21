@@ -17,6 +17,10 @@ header {
   padding: 10px;
 }
 
+nav {
+  margin: 10px;
+}
+
 nav ul {
   list-style: none;
 }
@@ -71,7 +75,7 @@ footer {
 
 /* Add styles for the navbar and "Reserve" button */
 header {
-  background-color: #4CAF50; /* Change the color to a positive green */
+  background-color: #4caf50; /* Change the color to a positive green */
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -135,7 +139,7 @@ nav a {
 
 .facility-info h2 {
   font-size: 24px;
-  color: #4CAF50;
+  color: #4caf50;
   margin-bottom: 10px;
 }
 
@@ -159,7 +163,7 @@ nav a {
 /* Additional styles for the "Register" text */
 .facility-info .register-text {
   font-size: 18px;
-  color: #4CAF50;
+  color: #4caf50;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -199,13 +203,13 @@ nav a {
 
 .service p {
   font-size: 16px;
-  // color: #fff;
+  /* // color: #fff; */
 }
 
 /* Additional styles for the "Register" text */
 .facility-info .register-text {
   font-size: 18px;
-  color: #4CAF50;
+  color: #4caf50;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -243,7 +247,8 @@ nav a {
   font-size: 16px;
 }
 .review p {
-  font-family: cursive, 'Comic Sans MS', 'Chalkduster', 'Brush Script MT', fantasy;
+  font-family: cursive, "Comic Sans MS", "Chalkduster", "Brush Script MT",
+    fantasy;
   font-size: 16px;
 }
 /* Hover effect for reviews */
@@ -252,7 +257,9 @@ nav a {
 }
 
 .review:hover {
-  transform: scale(1.05); /* Enlarge the review to 105% of its original size on hover */
+  transform: scale(
+    1.05
+  ); /* Enlarge the review to 105% of its original size on hover */
   background-color: #f9f9f9; /* You can change the background color if desired */
   transition: transform 0.3s, background-color 0.3s;
 }
@@ -263,7 +270,34 @@ nav a {
 }
 
 .service:hover {
-  transform: scale(1.05); /* Enlarge the service to 105% of its original size on hover */
+  transform: scale(
+    1.05
+  ); /* Enlarge the service to 105% of its original size on hover */
   background-color: #f9f9f9; /* You can change the background color if desired */
   transition: transform 0.3s, background-color 0.3s;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input,
+select,
+input[type="submit"] {
+  width: 48%; /* Adjust the width as needed */
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 2%; /* Adjust the spacing between inputs */
 }

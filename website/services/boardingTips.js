@@ -1,13 +1,21 @@
+function checkLocalStorageValue() {
+    return localStorage.getItem('id');
+}
+// Function to show the hidden content
+function showHiddenContent() {
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('exclusiveContent').style.display = 'block';
+}
+
 function identify(e) {
     e.preventDefault();
     // console.log("cl")/
     // Remove the translucent overlay
-    var rn = Math.floor((Math.random() * 1000000) + 1);
     var id = localStorage.getItem("id")
-
-    if (!id){
+    if (!checkLocalStorageValue()){
+        id = Math.floor((Math.random() * 1000000) + 1);
         console.log("setting new id=", rn)
-        id = localStorage.setItem("id", rn);
+        localStorage.setItem("id", id);
     }else{
         console.log(id)
     }
@@ -20,7 +28,7 @@ function identify(e) {
     var likeTravelling = form["likeTravelling"].value;
     var maritialStatus = form["maritialStatus"].value;
     var economicSituation = form["economicSituation"].value;
-    analytics.identify(rn, {
+    analytics.identify(id, {
         job: job,
         leadSource: 'Newsletter',
         is_first_session: 'true',

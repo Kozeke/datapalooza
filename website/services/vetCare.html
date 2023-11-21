@@ -14,6 +14,14 @@
 
 </head>
 <body>
+  <script>
+    // Check if the specific value exists in localStorage when the page loads
+    window.onload = function() {
+        if (checkLocalStorageValue()) {
+            showHiddenContent();
+        }
+    };
+  </script>
  <header>
     <div class="contact-info">
       <div class="social-icons">
@@ -30,9 +38,8 @@
         <li><a href="../index.html">Home</a></li>
         <li><a href="../services.html">Services</a></li>
         <li><a href="../blog.html">Blog</a></li>
-        <li><a href="dashboard.html">User Dashboard</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#" class="reserve-button">Reserve</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="../register.html" class="reserve-button">Register</a></li>
       </ul>
     </nav>
   </header>

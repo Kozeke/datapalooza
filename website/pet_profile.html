@@ -87,11 +87,6 @@
             e.preventDefault();
             var form = e.target;
             var id = form["id"].value;
-            // var title = form["title"].value;
-            // var age = form["age"].value;
-            // var gender = form["gender"].value;
-            // var comp_id = form["comp_id"].value;
-            // var comp_name = form["comp_name"].value;
             var weight = form["weight"].value;
             var vaccinationsUpToDate = form["vaccinationsUpToDate"].value;
             var obesity = form["obesity"].value;
@@ -100,35 +95,17 @@
             var weight = form["weight"].value;
             var geneticFactors = form["geneticFactors"].value;
             var breedPredisposition = form["breedPredisposition"].value;
-            // var phone = form["phone"].value;
-            // var state = form["state"].value;
-            // var rating = form["rating"].value
-            // var details = form["details"].value;
-            // var home_city = form["home_city"].value;
-            // var home_zip = form["home_zip"].value;
-            // var home_country = form["home_country"].value;
-            // var home_street = form["home_street"].value;
             var exercise = form["exercise"].value;
             var breed = form["breed"].value;
             var previousHealthConditions = form["previousHealthConditions"].value;
             var rn = Math.floor((Math.random() * 1000000) + 1);
             
             analytics.identify(12345, {
-                // email: email,
-                // title: title,
-                // age: age,
-                // gender: gender,
                 leadSource: 'Newsletter',
                 is_first_session: 'true',
                 clicked_random_link: 'true',
                 viewed_product: 'true',
-                // company: {
-                //     id: comp_id,
-                //     name: comp_name
-                // },
-                // name: name,
                 category: 'Marketing',
-                // address: address,
                 weight: weight,
                 VaccinationsUpToDate: vaccinationsUpToDate,
                 Obesity:obesity,
@@ -140,25 +117,11 @@
                 breedPredisposition:breedPredisposition,
                 geneticFactors:geneticFactors,
                 id:id
-
-
-
-                // phone: phone,
-                // state: state,
-                // rating: rating,
-                // address: {
-                //     city: home_city,
-                //     postalCode: home_zip,
-                //     country: home_country,
-                //     street: home_street,
-                //     state: home_state
-                // }
             }, {
                 'integrations': {
                     'Salesforce': true
                 }
             });
-
             analytics.track('Pet profile Submitted', {
                 type: "Lead Generation",
             });

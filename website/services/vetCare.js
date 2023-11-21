@@ -1,10 +1,19 @@
+function checkLocalStorageValue() {
+    return localStorage.getItem('id');
+}
+// Function to show the hidden content
+function showHiddenContent() {
+    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('exclusiveContent').style.display = 'block';
+}
+
 function identify(e) {
     e.preventDefault();
-    var rn = Math.floor((Math.random() * 1000000) + 1);
     var id = localStorage.getItem("id")
-    if (!id){
+    if (!checkLocalStorageValue()){
+        id = Math.floor((Math.random() * 1000000) + 1);
         console.log("setting new id=", rn)
-        id = localStorage.setItem("id", rn);
+        localStorage.setItem("id", id);
     }else{
         console.log(id)
     }
