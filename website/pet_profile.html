@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Profile Form</title>
+    <script>
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="LN3BnVpSFJ24HDtbAWW8PhNdDV4Fh1Ce";;analytics.SNIPPET_VERSION="4.16.1";
+        analytics.load("LN3BnVpSFJ24HDtbAWW8PhNdDV4Fh1Ce");
+        analytics.page();
+        }}();
+      </script>
+    <style>
+        /* Add some basic styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Pet Profile Form</h2>
+    <form name="form" onsubmit="identify(event)">
+
+    <!-- <form action="process-form.php" method="post"> -->
+        <!-- ID -->
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" required>
+
+        <!-- Weight -->
+        <label for="weight">Weight (in kg):</label>
+        <input type="number" id="weight" name="weight" required>
+
+        <!-- Vaccinations Up To Date -->
+        <label for="vaccinationsUpToDate">Vaccinations Up To Date:</label>
+        <input value="true" type="checkbox" id="vaccinationsUpToDate" name="vaccinationsUpToDate">
+
+        <!-- Obesity -->
+        <label for="obesity">Obesity:</label>
+        <input value="true" type="checkbox" id="obesity" name="obesity">
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <!-- Diet -->
+        <label for="diet">Diet:</label>
+        <input type="text" id="diet" name="diet">
+
+        <!-- Exercise -->
+        <label for="exercise">Exercise (in minutes per day):</label>
+        <input type="number" id="exercise" name="exercise" required>
+
+        <!-- Breed -->
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed">
+
+        <!-- breedPredisposition-->
+        <label for="breedPredisposition">Breed Predisposition:</label>
+        <input type="text" id="breedPredisposition" name="breedPredisposition">
+
+        <!-- geneticFactors-->
+        <label for="geneticFactors">Genetic Factors:</label>
+        <input type="text" id="geneticFactors" name="geneticFactors">
+
+        <!-- Previous Health Conditions -->
+        <label for="previousHealthConditions">Previous Health Conditions:</label>
+        <textarea id="previousHealthConditions" name="previousHealthConditions"></textarea>
+        <input name="submit" type="submit" value="submit" />
+
+        <!-- Submit Button -->
+        <!-- <button type="submit">Submit</button>
+         -->
+    </form>
+    <script type="text/javascript">
+        function identify(e) {
+            e.preventDefault();
+            var form = e.target;
+            var id = form["id"].value;
+            // var title = form["title"].value;
+            // var age = form["age"].value;
+            // var gender = form["gender"].value;
+            // var comp_id = form["comp_id"].value;
+            // var comp_name = form["comp_name"].value;
+            var weight = form["weight"].value;
+            var vaccinationsUpToDate = form["vaccinationsUpToDate"].value;
+            var obesity = form["obesity"].value;
+            var age = form["age"].value;
+            var diet = form["diet"].value;
+            var weight = form["weight"].value;
+            var geneticFactors = form["geneticFactors"].value;
+            var breedPredisposition = form["breedPredisposition"].value;
+            // var phone = form["phone"].value;
+            // var state = form["state"].value;
+            // var rating = form["rating"].value
+            // var details = form["details"].value;
+            // var home_city = form["home_city"].value;
+            // var home_zip = form["home_zip"].value;
+            // var home_country = form["home_country"].value;
+            // var home_street = form["home_street"].value;
+            var exercise = form["exercise"].value;
+            var breed = form["breed"].value;
+            var previousHealthConditions = form["previousHealthConditions"].value;
+            var rn = Math.floor((Math.random() * 1000000) + 1);
+            
+            analytics.identify(12345, {
+                // email: email,
+                // title: title,
+                // age: age,
+                // gender: gender,
+                leadSource: 'Newsletter',
+                is_first_session: 'true',
+                clicked_random_link: 'true',
+                viewed_product: 'true',
+                // company: {
+                //     id: comp_id,
+                //     name: comp_name
+                // },
+                // name: name,
+                category: 'Marketing',
+                // address: address,
+                weight: weight,
+                VaccinationsUpToDate: vaccinationsUpToDate,
+                Obesity:obesity,
+                age: age,
+                diet: diet,
+                exercise: exercise,
+                breed:breed,
+                previoushealthconditions:previousHealthConditions,
+                breedPredisposition:breedPredisposition,
+                geneticFactors:geneticFactors,
+                id:id
+
+
+
+                // phone: phone,
+                // state: state,
+                // rating: rating,
+                // address: {
+                //     city: home_city,
+                //     postalCode: home_zip,
+                //     country: home_country,
+                //     street: home_street,
+                //     state: home_state
+                // }
+            }, {
+                'integrations': {
+                    'Salesforce': true
+                }
+            });
+
+            analytics.track('Pet profile Submitted', {
+                type: "Lead Generation",
+            });
+
+        }
+    </script>
+</body>
+</html>

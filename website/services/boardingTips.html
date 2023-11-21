@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog - Pet Caring Services</title>
-  <link rel="stylesheet" type="text/css" href="services.css">
+  <title>Blog - Boarding Services</title>
+  <link rel="stylesheet" type="text/css" href="../blog.css">
+  <link rel="stylesheet" type="text/css" href="vetCare.css">
   <script>
     !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="LN3BnVpSFJ24HDtbAWW8PhNdDV4Fh1Ce";;analytics.SNIPPET_VERSION="4.16.1";
     analytics.load("LN3BnVpSFJ24HDtbAWW8PhNdDV4Fh1Ce");
     analytics.page();
     }}();
   </script> 
-  <script src="services.js"></script>
+  <script src="boardingTips.js"></script>
 
 </head>
 <body>
@@ -23,12 +24,12 @@
       </div>
       <p class="phone-number">Call us: +1 (123) 456-7890</p>
     </div>
-    <h1>Welcome to Pet Caring Services</h1>
+    <h1>Welcome to Boarding Services</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../blog.html">Blog</a></li>
         <li><a href="dashboard.html">User Dashboard</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="#" class="reserve-button">Reserve</a></li>
@@ -36,38 +37,54 @@
     </nav>
   </header>
   <section class="main-content">
-    <h2>Blog</h2>
-    <!-- Blog posts for each service -->
-    <div class="service" >
-      <!-- <a href="veterinary-care-tips.html"> -->
-          <a href="services/vetCare.html  ">
-        <div class="blog-post-content">
-          <img src="veterinary-image.jpg" alt="Veterinary Care Tips">
-          <h3>Veterinary Care</h3>
-          <p>Our experienced veterinarians ensure your pet's health and well-being.</p>
-        </div>
-      </a>
-    </div>
-    <div class="service">
-      <a href="services/boardingTips.html">
-        <div class="blog-post-content">
-          <img src="training-image.jpg" alt="Training Programs Tips">
-          <h3>Boarding Programs</h3>
-          <p>We offer training sessions to enhance your pet's behavior and obedience.</p>
-        </div>
-      </a>
-    </div>
-    <div class="service">
-      <a href="grooming-tips.html">
-        <div class="blog-post-content">
-          <img src="grooming-image.jpg" alt="Grooming Services Tips">
-          <h3>Grooming Services</h3>
-          <p>Pamper your pet with our grooming and spa treatments.</p>
-        </div>
-      </a>
-    </div>
+    <div id="overlay">
+      <form id="petForm" onsubmit="identify(event)">
+        <div style="display:flex">
+          <label for="job">job Type:</label>
+          <select id="job" name="job">
+            <option value="part-time">part-time</option>
+            <option value="full-time">full-time</option>
+            <option value="nojob">nojob</option>
+        </select>
+          <!-- <input type="number" id="age" name="age" required> -->
+          <label for="likeTravelling">Do you like travelling?</label>
+          <select id="likeTravelling" name="likeTravelling">
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+          </select>
+      </div>
 
-    <!-- Add more blog posts for other topics here -->
+      <div style="display:flex">
+        <label for="maritialStatus">Maritial Status:</label>
+        <select id="maritialStatus" name="maritialStatus">
+            <option value="single">single</option>
+            <option value="married">married</option>
+        </select>
+        <label for="economicSituation">Economic Situation:</label>
+        <select id="economicSituation" name="economicSituation">
+            <option value="high">high</option>
+            <option value="moderate">moderate</option>
+            <option value="low">low</option>
+        </select> 
+      </div>
+      <div style="display:flex">
+          <input name="submit" type="submit" value="Submit" />
+        </div>  
+    </form>
+  </div>
+
+  <div id="publicContent">
+      <h1>Welcome to Our Blog!</h1>
+      
+      <h2>Part 1: Public Content</h2>
+      <p>This is the public content of the blog that everyone can see.</p>
+  </div>
+
+  <div id="exclusiveContent">
+      <h2>Part 2: Exclusive Content</h2>
+      <p>This content is hidden until you fill out the form above.</p>
+  </div>
+
   </section>
  <footer>
     <p>&copy; 2023 Pet Caring Services</p>
