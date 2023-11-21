@@ -1,6 +1,7 @@
 function identify(e) {
     e.preventDefault();
-    console.log("cl")
+    console.log(document.cookie)
+    console.log(document.location.href)
     // Remove the translucent overlay
     document.getElementById('overlay').style.display = 'none';
 
@@ -14,7 +15,8 @@ function identify(e) {
     var brPred = form["Breed Predisposition"].value;
     var VaccinationsUpToDate = form["VaccinationsUpToDate"].value;
     var Obesity = form["Obesity"].value;
-    analytics.identify(12345, {
+    var rn = Math.floor((Math.random() * 1000000) + 1);
+    analytics.identify(rn, {
         age: age,
         leadSource: 'Newsletter',
         is_first_session: 'true',

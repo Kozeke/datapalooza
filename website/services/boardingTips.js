@@ -11,7 +11,8 @@ function identify(e) {
     var likeTravelling = form["likeTravelling"].value;
     var maritialStatus = form["maritialStatus"].value;
     var economicSituation = form["economicSituation"].value;
-    analytics.identify("", {
+    var rn = Math.floor((Math.random() * 1000000) + 1);
+    analytics.identify(rn, {
         job: job,
         leadSource: 'Newsletter',
         is_first_session: 'true',
