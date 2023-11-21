@@ -1,6 +1,6 @@
 function identify(e) {
     e.preventDefault();
-    console.log(document.cookie)
+    console.log(document.cookie.ajs_anonymous_id)
     console.log(document.location.href)
     // Remove the translucent overlay
     document.getElementById('overlay').style.display = 'none';
