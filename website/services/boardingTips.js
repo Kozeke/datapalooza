@@ -2,8 +2,15 @@ function identify(e) {
     e.preventDefault();
     // console.log("cl")/
     // Remove the translucent overlay
-    document.getElementById('overlay').style.display = 'none';
+    var rn = Math.floor((Math.random() * 1000000) + 1);
+    var id = localStorage.getItem("id")
 
+    if (!id){
+        id = localStorage.setItem("id", rn);
+    }
+    console.log(id)
+    document.getElementById('overlay').style.display = 'none';
+    // console.log(    localStorage.getItem("lastname")    )
     // Display the hidden content
     document.getElementById('exclusiveContent').style.display = 'block';
     var form = e.target;
@@ -11,7 +18,6 @@ function identify(e) {
     var likeTravelling = form["likeTravelling"].value;
     var maritialStatus = form["maritialStatus"].value;
     var economicSituation = form["economicSituation"].value;
-    var rn = Math.floor((Math.random() * 1000000) + 1);
     analytics.identify(rn, {
         job: job,
         leadSource: 'Newsletter',

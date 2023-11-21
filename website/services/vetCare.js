@@ -1,7 +1,11 @@
 function identify(e) {
     e.preventDefault();
-    console.log(document.cookie.ajs_anonymous_id)
-    console.log(document.location.href)
+    var rn = Math.floor((Math.random() * 1000000) + 1);
+    var id = localStorage.getItem("id")
+    if (!id){
+        id = localStorage.setItem("id", rn);
+    }
+    console.log(id)
     // Remove the translucent overlay
     document.getElementById('overlay').style.display = 'none';
 
@@ -15,8 +19,8 @@ function identify(e) {
     var brPred = form["Breed Predisposition"].value;
     var VaccinationsUpToDate = form["VaccinationsUpToDate"].value;
     var Obesity = form["Obesity"].value;
-    var rn = Math.floor((Math.random() * 1000000) + 1);
-    analytics.identify(rn, {
+    
+    analytics.identify(id, {
         age: age,
         leadSource: 'Newsletter',
         is_first_session: 'true',
