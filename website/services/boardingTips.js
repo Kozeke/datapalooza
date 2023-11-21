@@ -6,9 +6,11 @@ function identify(e) {
     var id = localStorage.getItem("id")
 
     if (!id){
+        console.log("setting new id=", rn)
         id = localStorage.setItem("id", rn);
+    }else{
+        console.log(id)
     }
-    console.log(id)
     document.getElementById('overlay').style.display = 'none';
     // console.log(    localStorage.getItem("lastname")    )
     // Display the hidden content

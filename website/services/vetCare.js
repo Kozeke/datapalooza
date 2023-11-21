@@ -3,9 +3,11 @@ function identify(e) {
     var rn = Math.floor((Math.random() * 1000000) + 1);
     var id = localStorage.getItem("id")
     if (!id){
+        console.log("setting new id=", rn)
         id = localStorage.setItem("id", rn);
+    }else{
+        console.log(id)
     }
-    console.log(id)
     // Remove the translucent overlay
     document.getElementById('overlay').style.display = 'none';
 
