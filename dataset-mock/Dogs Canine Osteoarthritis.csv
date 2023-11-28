@@ -1,0 +1,251 @@
+id,weight,VaccinationsUpToDate,age,diet,exercise,breed,Breed Predisposition,Joint Trauma Or Injury,Obesity,Genetic Factors,Canine Osteoarthritis
+0,22,false,14,High-Protein Diet,0,Bulldog,false,false,false,false,false
+1,24,true,16,Large Breed Dog Food,1,Poodle,true,true,true,true,true
+2,34,false,17,Large Breed Dog Food,2,French Bulldog,false,false,false,false,false
+3,30,true,11,High-Protein Diet,0,Beagle,true,true,true,true,true
+4,15,false,3,Homemade Dog Food,1,Bulldog,false,false,false,false,false
+5,25,true,8,Small Breed Dog Food,2,Dachshund,true,true,true,true,true
+6,21,false,15,Homemade Dog Food,0,Beagle,false,false,false,false,false
+7,22,true,17,Homemade Dog Food,1,Beagle,true,true,true,true,true
+8,13,false,8,Raw Food Diet,2,German Shepherd,false,false,false,false,false
+9,24,true,13,Grain-Free Diet,0,French Bulldog,true,true,true,true,true
+10,17,false,10,Grain-Free Diet,1,German Shepherd,false,false,false,false,false
+11,20,true,5,Small Breed Dog Food,2,Labrador Retriever,true,true,true,true,true
+12,16,false,5,Limited Ingredient Diet,0,German Shepherd,false,false,false,false,false
+13,24,true,1,Limited Ingredient Diet,1,Golden Retriever,true,true,true,true,true
+14,17,false,9,Dry Kibble,2,French Bulldog,false,false,false,false,false
+15,13,true,11,Limited Ingredient Diet,0,Beagle,true,true,true,true,true
+16,32,false,4,Large Breed Dog Food,1,French Bulldog,false,false,false,false,false
+17,12,true,12,Canned/Wet Food,2,Bulldog,true,true,true,true,true
+18,24,false,7,Large Breed Dog Food,0,Beagle,false,false,false,false,false
+19,34,true,11,Raw Food Diet,1,Yorkshire Terrier,true,true,true,true,true
+20,16,false,6,Prescription/Veterinary Diet,2,Labrador Retriever,false,false,false,false,false
+21,25,true,17,Large Breed Dog Food,0,Poodle,true,true,true,true,true
+22,25,false,14,Dry Kibble,1,Yorkshire Terrier,false,false,false,false,false
+23,26,true,10,Limited Ingredient Diet,2,Yorkshire Terrier,true,true,true,true,true
+24,27,false,10,Canned/Wet Food,0,Bulldog,false,false,false,false,false
+25,30,true,14,Raw Food Diet,1,Labrador Retriever,true,true,true,true,true
+26,34,false,6,High-Protein Diet,2,Rottweiler,false,false,false,false,false
+27,27,true,11,Grain-Free Diet,0,Rottweiler,true,true,true,true,true
+28,18,false,2,High-Protein Diet,1,Beagle,false,false,false,false,false
+29,18,true,2,Grain-Free Diet,2,Beagle,true,true,true,true,true
+30,23,false,13,Canned/Wet Food,0,German Shepherd,false,false,false,false,false
+31,13,true,10,Grain-Free Diet,1,German Shepherd,true,true,true,true,true
+32,24,false,15,Canned/Wet Food,2,French Bulldog,false,false,false,false,false
+33,31,true,13,Raw Food Diet,0,Poodle,true,true,true,true,true
+34,20,false,18,Raw Food Diet,1,French Bulldog,false,false,false,false,false
+35,14,true,5,Small Breed Dog Food,2,Rottweiler,true,true,true,true,true
+36,13,false,6,Canned/Wet Food,0,Rottweiler,false,false,false,false,false
+37,35,true,18,Prescription/Veterinary Diet,1,Poodle,true,true,true,true,true
+38,22,false,14,Canned/Wet Food,2,Rottweiler,false,false,false,false,false
+39,32,true,19,Dry Kibble,0,German Shepherd,true,true,true,true,true
+40,18,false,1,Homemade Dog Food,1,Golden Retriever,false,false,false,false,false
+41,17,true,12,Canned/Wet Food,2,French Bulldog,true,true,true,true,true
+42,11,false,6,Homemade Dog Food,0,Yorkshire Terrier,false,false,false,false,false
+43,20,true,17,Prescription/Veterinary Diet,1,German Shepherd,true,true,true,true,true
+44,11,false,17,High-Protein Diet,2,Dachshund,false,false,false,false,false
+45,33,true,12,Grain-Free Diet,0,Rottweiler,true,true,true,true,true
+46,17,false,4,Small Breed Dog Food,1,Dachshund,false,false,false,false,false
+47,21,true,7,High-Protein Diet,2,Dachshund,true,true,true,true,true
+48,31,false,5,Small Breed Dog Food,0,Rottweiler,false,false,false,false,false
+49,19,true,6,Grain-Free Diet,1,Beagle,true,true,true,true,true
+50,21,false,12,Prescription/Veterinary Diet,2,Rottweiler,false,false,false,false,false
+51,35,true,18,Grain-Free Diet,0,Rottweiler,true,true,true,true,true
+52,11,false,3,Homemade Dog Food,1,Golden Retriever,false,false,false,false,false
+53,12,true,2,Raw Food Diet,2,Bulldog,true,true,true,true,true
+54,30,false,3,Canned/Wet Food,0,Poodle,false,false,false,false,false
+55,20,true,16,Limited Ingredient Diet,1,Yorkshire Terrier,true,true,true,true,true
+56,17,false,14,Canned/Wet Food,2,Bulldog,false,false,false,false,false
+57,14,true,4,Canned/Wet Food,0,Labrador Retriever,true,true,true,true,true
+58,12,false,12,Homemade Dog Food,1,Beagle,false,false,false,false,false
+59,11,true,5,Homemade Dog Food,2,Bulldog,true,true,true,true,true
+60,25,false,12,Raw Food Diet,0,Poodle,false,false,false,false,false
+61,22,true,7,Canned/Wet Food,1,German Shepherd,true,true,true,true,true
+62,32,false,12,Dry Kibble,2,French Bulldog,false,false,false,false,false
+63,34,true,6,Prescription/Veterinary Diet,0,Bulldog,true,true,true,true,true
+64,13,false,7,Raw Food Diet,1,Rottweiler,false,false,false,false,false
+65,21,true,15,Limited Ingredient Diet,2,Golden Retriever,true,true,true,true,true
+66,18,false,12,Raw Food Diet,0,Bulldog,false,false,false,false,false
+67,21,true,16,Prescription/Veterinary Diet,1,Rottweiler,true,true,true,true,true
+68,12,false,18,Prescription/Veterinary Diet,2,Rottweiler,false,false,false,false,false
+69,30,true,3,Grain-Free Diet,0,Rottweiler,true,true,true,true,true
+70,25,false,5,Limited Ingredient Diet,1,Dachshund,false,false,false,false,false
+71,29,true,16,Limited Ingredient Diet,2,Bulldog,true,true,true,true,true
+72,33,false,12,Small Breed Dog Food,0,Poodle,false,false,false,false,false
+73,14,true,18,Dry Kibble,1,Beagle,true,true,true,true,true
+74,33,false,10,Limited Ingredient Diet,2,Beagle,false,false,false,false,false
+75,20,true,4,Limited Ingredient Diet,0,French Bulldog,true,true,true,true,true
+76,13,false,14,Homemade Dog Food,1,Poodle,false,false,false,false,false
+77,23,true,4,Canned/Wet Food,2,Beagle,true,true,true,true,true
+78,11,false,9,Homemade Dog Food,0,Poodle,false,false,false,false,false
+79,17,true,2,Small Breed Dog Food,1,Poodle,true,true,true,true,true
+80,32,false,16,Canned/Wet Food,2,German Shepherd,false,false,false,false,false
+81,16,true,8,Small Breed Dog Food,0,German Shepherd,true,true,true,true,true
+82,34,false,7,Limited Ingredient Diet,1,Bulldog,false,false,false,false,false
+83,32,true,12,Limited Ingredient Diet,2,Dachshund,true,true,true,true,true
+84,17,false,5,Small Breed Dog Food,0,German Shepherd,false,false,false,false,false
+85,21,true,8,Dry Kibble,1,Golden Retriever,true,true,true,true,true
+86,22,false,2,Raw Food Diet,2,French Bulldog,false,false,false,false,false
+87,11,true,11,Limited Ingredient Diet,0,Beagle,true,true,true,true,true
+88,35,false,13,Prescription/Veterinary Diet,1,German Shepherd,false,false,false,false,false
+89,24,true,3,Prescription/Veterinary Diet,2,German Shepherd,true,true,true,true,true
+90,14,false,8,Limited Ingredient Diet,0,French Bulldog,false,false,false,false,false
+91,29,true,13,Limited Ingredient Diet,1,French Bulldog,true,true,true,true,true
+92,35,false,11,Limited Ingredient Diet,2,Poodle,false,false,false,false,false
+93,29,true,10,Grain-Free Diet,0,French Bulldog,true,true,true,true,true
+94,24,false,5,Large Breed Dog Food,1,Bulldog,false,false,false,false,false
+95,16,true,18,Small Breed Dog Food,2,French Bulldog,true,true,true,true,true
+96,19,false,11,Small Breed Dog Food,0,German Shepherd,false,false,false,false,false
+97,19,true,12,Homemade Dog Food,1,Yorkshire Terrier,true,true,true,true,true
+98,32,false,15,Prescription/Veterinary Diet,2,French Bulldog,false,false,false,false,false
+99,28,true,15,Small Breed Dog Food,0,French Bulldog,true,true,true,true,true
+100,35,false,3,Homemade Dog Food,1,French Bulldog,false,false,false,false,false
+101,13,true,9,High-Protein Diet,2,Bulldog,true,true,true,true,true
+102,23,false,11,Prescription/Veterinary Diet,0,Labrador Retriever,false,false,false,false,false
+103,13,true,19,Canned/Wet Food,1,Bulldog,true,true,true,true,true
+104,16,false,5,Canned/Wet Food,2,Yorkshire Terrier,false,false,false,false,false
+105,12,true,11,Prescription/Veterinary Diet,0,Dachshund,true,true,true,true,true
+106,27,false,10,Large Breed Dog Food,1,Dachshund,false,false,false,false,false
+107,32,true,10,High-Protein Diet,2,Rottweiler,true,true,true,true,true
+108,24,false,2,Raw Food Diet,0,Dachshund,false,false,false,false,false
+109,26,true,3,Small Breed Dog Food,1,Yorkshire Terrier,true,true,true,true,true
+110,18,false,7,Canned/Wet Food,2,French Bulldog,false,false,false,false,false
+111,30,true,18,Prescription/Veterinary Diet,0,Bulldog,true,true,true,true,true
+112,20,false,2,Grain-Free Diet,1,Bulldog,false,false,false,false,false
+113,11,true,4,Homemade Dog Food,2,Labrador Retriever,true,true,true,true,true
+114,27,false,18,Small Breed Dog Food,0,Golden Retriever,false,false,false,false,false
+115,28,true,9,Small Breed Dog Food,1,Dachshund,true,true,true,true,true
+116,12,false,15,Large Breed Dog Food,2,Beagle,false,false,false,false,false
+117,15,true,5,High-Protein Diet,0,Golden Retriever,true,true,true,true,true
+118,12,false,12,Homemade Dog Food,1,Labrador Retriever,false,false,false,false,false
+119,29,true,15,Canned/Wet Food,2,Rottweiler,true,true,true,true,true
+120,23,false,11,Prescription/Veterinary Diet,0,German Shepherd,false,false,false,false,false
+121,14,true,7,High-Protein Diet,1,Yorkshire Terrier,true,true,true,true,true
+122,22,false,10,Homemade Dog Food,2,German Shepherd,false,false,false,false,false
+123,23,true,11,Homemade Dog Food,0,Dachshund,true,true,true,true,true
+124,24,false,16,Canned/Wet Food,1,German Shepherd,false,false,false,false,false
+125,22,true,7,Limited Ingredient Diet,2,Bulldog,true,true,true,true,true
+126,33,false,19,Prescription/Veterinary Diet,0,Golden Retriever,false,false,false,false,false
+127,16,true,8,Grain-Free Diet,1,Golden Retriever,true,true,true,true,true
+128,21,false,12,Raw Food Diet,2,Rottweiler,false,false,false,false,false
+129,13,true,5,Small Breed Dog Food,0,German Shepherd,true,true,true,true,true
+130,35,false,16,Raw Food Diet,1,Bulldog,false,false,false,false,false
+131,14,true,18,Raw Food Diet,2,Golden Retriever,true,true,true,true,true
+132,29,false,2,High-Protein Diet,0,Dachshund,false,false,false,false,false
+133,35,true,1,Grain-Free Diet,1,Bulldog,true,true,true,true,true
+134,25,false,4,Canned/Wet Food,2,Beagle,false,false,false,false,false
+135,16,true,5,Small Breed Dog Food,0,French Bulldog,true,true,true,true,true
+136,12,false,16,Homemade Dog Food,1,Rottweiler,false,false,false,false,false
+137,32,true,10,Large Breed Dog Food,2,Beagle,true,true,true,true,true
+138,12,false,16,High-Protein Diet,0,Beagle,false,false,false,false,false
+139,23,true,15,High-Protein Diet,1,Bulldog,true,true,true,true,true
+140,29,false,17,Prescription/Veterinary Diet,2,Dachshund,false,false,false,false,false
+141,18,true,13,Raw Food Diet,0,Bulldog,true,true,true,true,true
+142,14,false,3,Small Breed Dog Food,1,Bulldog,false,false,false,false,false
+143,27,true,13,High-Protein Diet,2,Rottweiler,true,true,true,true,true
+144,18,false,14,Grain-Free Diet,0,Golden Retriever,false,false,false,false,false
+145,10,true,14,Grain-Free Diet,1,German Shepherd,true,true,true,true,true
+146,34,false,18,Raw Food Diet,2,German Shepherd,false,false,false,false,false
+147,12,true,18,Limited Ingredient Diet,0,Dachshund,true,true,true,true,true
+148,22,false,4,Grain-Free Diet,1,French Bulldog,false,false,false,false,false
+149,12,true,9,Dry Kibble,2,Rottweiler,true,true,true,true,true
+150,35,false,5,Raw Food Diet,0,Dachshund,false,false,false,false,false
+151,24,true,4,Raw Food Diet,1,Poodle,true,true,true,true,true
+152,15,false,14,Limited Ingredient Diet,2,Bulldog,false,false,false,false,false
+153,31,true,16,Small Breed Dog Food,0,French Bulldog,true,true,true,true,true
+154,21,false,17,Prescription/Veterinary Diet,1,Poodle,false,false,false,false,false
+155,21,true,15,Limited Ingredient Diet,2,Beagle,true,true,true,true,true
+156,31,false,6,High-Protein Diet,0,Beagle,false,false,false,false,false
+157,27,true,5,Grain-Free Diet,1,French Bulldog,true,true,true,true,true
+158,22,false,18,Canned/Wet Food,2,Bulldog,false,false,false,false,false
+159,29,true,6,High-Protein Diet,0,Rottweiler,true,true,true,true,true
+160,29,false,15,Raw Food Diet,1,Bulldog,false,false,false,false,false
+161,30,true,18,Limited Ingredient Diet,2,German Shepherd,true,true,true,true,true
+162,19,false,12,Raw Food Diet,0,Yorkshire Terrier,false,false,false,false,false
+163,13,true,17,Dry Kibble,1,German Shepherd,true,true,true,true,true
+164,30,false,2,Homemade Dog Food,2,German Shepherd,false,false,false,false,false
+165,12,true,14,Homemade Dog Food,0,German Shepherd,true,true,true,true,true
+166,23,false,16,Raw Food Diet,1,Labrador Retriever,false,false,false,false,false
+167,16,true,3,Small Breed Dog Food,2,French Bulldog,true,true,true,true,true
+168,26,false,14,Large Breed Dog Food,0,Beagle,false,false,false,false,false
+169,12,true,14,Grain-Free Diet,1,French Bulldog,true,true,true,true,true
+170,27,false,5,Small Breed Dog Food,2,Rottweiler,false,false,false,false,false
+171,34,true,16,Limited Ingredient Diet,0,Dachshund,true,true,true,true,true
+172,11,false,2,Small Breed Dog Food,1,German Shepherd,false,false,false,false,false
+173,33,true,9,Raw Food Diet,2,Bulldog,true,true,true,true,true
+174,21,false,15,Homemade Dog Food,0,Rottweiler,false,false,false,false,false
+175,27,true,15,Grain-Free Diet,1,Bulldog,true,true,true,true,true
+176,28,false,14,Homemade Dog Food,2,Poodle,false,false,false,false,false
+177,24,true,8,Prescription/Veterinary Diet,0,Bulldog,true,true,true,true,true
+178,28,false,12,High-Protein Diet,1,Poodle,false,false,false,false,false
+179,32,true,4,Prescription/Veterinary Diet,2,Poodle,true,true,true,true,true
+180,24,false,8,Grain-Free Diet,0,German Shepherd,false,false,false,false,false
+181,18,true,7,Limited Ingredient Diet,1,Golden Retriever,true,true,true,true,true
+182,29,false,18,Prescription/Veterinary Diet,2,Dachshund,false,false,false,false,false
+183,35,true,13,High-Protein Diet,0,Dachshund,true,true,true,true,true
+184,35,false,5,Canned/Wet Food,1,German Shepherd,false,false,false,false,false
+185,29,true,2,Homemade Dog Food,2,French Bulldog,true,true,true,true,true
+186,34,false,10,Limited Ingredient Diet,0,Dachshund,false,false,false,false,false
+187,32,true,13,Large Breed Dog Food,1,French Bulldog,true,true,true,true,true
+188,32,false,11,Small Breed Dog Food,2,Dachshund,false,false,false,false,false
+189,24,true,19,Dry Kibble,0,French Bulldog,true,true,true,true,true
+190,34,false,12,Limited Ingredient Diet,1,Golden Retriever,false,false,false,false,false
+191,35,true,9,Homemade Dog Food,2,French Bulldog,true,true,true,true,true
+192,14,false,10,Limited Ingredient Diet,0,Beagle,false,false,false,false,false
+193,26,true,8,Raw Food Diet,1,Rottweiler,true,true,true,true,true
+194,15,false,6,Grain-Free Diet,2,French Bulldog,false,false,false,false,false
+195,26,true,13,High-Protein Diet,0,Dachshund,true,true,true,true,true
+196,29,false,9,High-Protein Diet,1,Dachshund,false,false,false,false,false
+197,15,true,13,Small Breed Dog Food,2,Golden Retriever,true,true,true,true,true
+198,19,false,4,Raw Food Diet,0,Poodle,false,false,false,false,false
+199,33,true,8,Limited Ingredient Diet,1,German Shepherd,true,true,true,true,true
+200,33,false,17,Prescription/Veterinary Diet,2,French Bulldog,false,false,false,false,false
+201,13,true,14,Raw Food Diet,0,Bulldog,true,true,true,true,true
+202,27,false,9,High-Protein Diet,1,Beagle,false,false,false,false,false
+203,32,true,18,Grain-Free Diet,2,Poodle,true,true,true,true,true
+204,22,false,11,Limited Ingredient Diet,0,Rottweiler,false,false,false,false,false
+205,20,true,9,Grain-Free Diet,1,Bulldog,true,true,true,true,true
+206,32,false,17,Raw Food Diet,2,German Shepherd,false,false,false,false,false
+207,34,true,17,Small Breed Dog Food,0,Beagle,true,true,true,true,true
+208,12,false,18,Prescription/Veterinary Diet,1,Poodle,false,false,false,false,false
+209,18,true,7,Dry Kibble,2,Poodle,true,true,true,true,true
+210,29,false,4,Canned/Wet Food,0,German Shepherd,false,false,false,false,false
+211,19,true,1,Limited Ingredient Diet,1,Dachshund,true,true,true,true,true
+212,30,false,14,Homemade Dog Food,2,Golden Retriever,false,false,false,false,false
+213,18,true,12,Prescription/Veterinary Diet,0,Dachshund,true,true,true,true,true
+214,10,false,8,High-Protein Diet,1,German Shepherd,false,false,false,false,false
+215,14,true,4,Canned/Wet Food,2,Beagle,true,true,true,true,true
+216,20,false,12,Limited Ingredient Diet,0,Rottweiler,false,false,false,false,false
+217,13,true,16,Grain-Free Diet,1,Poodle,true,true,true,true,true
+218,26,false,9,Dry Kibble,2,Poodle,false,false,false,false,false
+219,11,true,11,Homemade Dog Food,0,Yorkshire Terrier,true,true,true,true,true
+220,31,false,18,Raw Food Diet,1,Rottweiler,false,false,false,false,false
+221,26,true,11,Homemade Dog Food,2,Golden Retriever,true,true,true,true,true
+222,27,false,7,Grain-Free Diet,0,Beagle,false,false,false,false,false
+223,16,true,8,High-Protein Diet,1,Poodle,true,true,true,true,true
+224,20,false,18,High-Protein Diet,2,Dachshund,false,false,false,false,false
+225,11,true,16,Canned/Wet Food,0,Poodle,true,true,true,true,true
+226,13,false,16,Small Breed Dog Food,1,German Shepherd,false,false,false,false,false
+227,20,true,7,Homemade Dog Food,2,German Shepherd,true,true,true,true,true
+228,26,false,8,Grain-Free Diet,0,Rottweiler,false,false,false,false,false
+229,15,true,10,Large Breed Dog Food,1,Poodle,true,true,true,true,true
+230,22,false,4,Raw Food Diet,2,German Shepherd,false,false,false,false,false
+231,33,true,18,Raw Food Diet,0,Rottweiler,true,true,true,true,true
+232,25,false,18,High-Protein Diet,1,Rottweiler,false,false,false,false,false
+233,34,true,11,Prescription/Veterinary Diet,2,Beagle,true,true,true,true,true
+234,10,false,3,Large Breed Dog Food,0,Dachshund,false,false,false,false,false
+235,31,true,5,Raw Food Diet,1,Beagle,true,true,true,true,true
+236,33,false,16,Large Breed Dog Food,2,German Shepherd,false,false,false,false,false
+237,21,true,16,High-Protein Diet,0,Rottweiler,true,true,true,true,true
+238,21,false,9,Limited Ingredient Diet,1,French Bulldog,false,false,false,false,false
+239,12,true,2,Homemade Dog Food,2,Bulldog,true,true,true,true,true
+240,22,false,10,Canned/Wet Food,0,Bulldog,false,false,false,false,false
+241,18,true,8,Canned/Wet Food,1,Labrador Retriever,true,true,true,true,true
+242,25,false,12,Raw Food Diet,2,Yorkshire Terrier,false,false,false,false,false
+243,34,true,4,Dry Kibble,0,French Bulldog,true,true,true,true,true
+244,30,false,18,Homemade Dog Food,1,Bulldog,false,false,false,false,false
+245,32,true,14,Canned/Wet Food,2,Rottweiler,true,true,true,true,true
+246,15,false,2,Grain-Free Diet,0,French Bulldog,false,false,false,false,false
+247,12,true,2,Limited Ingredient Diet,1,Dachshund,true,true,true,true,true
+248,33,false,4,Grain-Free Diet,2,Poodle,false,false,false,false,false
+249,23,true,5,Small Breed Dog Food,0,Labrador Retriever,true,true,true,true,true
