@@ -14,7 +14,7 @@ function identify(e) {
     var id = localStorage.getItem("id")
     if (!checkLocalStorageValue()){
         id = Math.floor((Math.random() * 1000000) + 1);
-        console.log("setting new id=", rn)
+        // console.log("setting new id=", rn)
         localStorage.setItem("id", id);
     }else{
         console.log(id)
