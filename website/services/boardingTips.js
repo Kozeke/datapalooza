@@ -1,5 +1,5 @@
 function checkLocalStorageValue() {
-    return localStorage.getItem('id');
+    return localStorage.getItem('bid');
 }
 // Function to show the hidden content
 function showHiddenContent() {
