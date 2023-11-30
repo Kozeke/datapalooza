@@ -1,12 +1,3 @@
-function checkLocalStorageValue() {
-    return localStorage.getItem('id');
-}
-// Function to show the hidden content
-function showHiddenContent() {
-    document.getElementById('overlay').style.display = 'none';
-    document.getElementById('exclusiveContent').style.display = 'block';
-}
-
 function identify(e) {
     e.preventDefault();
     var id = localStorage.getItem("id")
@@ -31,7 +22,7 @@ function identify(e) {
     var VaccinationsUpToDate = form["VaccinationsUpToDate"].value;
     var Obesity = form["Obesity"].value;
     
-    analytics.identify(id, {
+    analytics.identify("12345", {
         age: age,
         leadSource: 'Newsletter',
         is_first_session: 'true',

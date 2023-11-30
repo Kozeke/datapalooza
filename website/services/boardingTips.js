@@ -1,24 +1,16 @@
-function checkLocalStorageValue() {
-    return localStorage.getItem('bid');
-}
-// Function to show the hidden content
-function showHiddenContent() {
-    document.getElementById('overlay').style.display = 'none';
-    document.getElementById('exclusiveContent').style.display = 'block';
-}
 
 function identify(e) {
     e.preventDefault();
     // console.log("cl")/
     // Remove the translucent overlay
-    var id = localStorage.getItem("bid")
-    if (!checkLocalStorageValue()){
-        id = Math.floor((Math.random() * 1000000) + 1);
-        // console.log("setting new id=", rn)
-        localStorage.setItem("bid", id);
-    }else{
-        console.log(id)
-    }
+    // var id = localStorage.getItem("bid")
+    // if (!checkLocalStorageValue()){
+    //     id = Math.floor((Math.random() * 1000000) + 1);
+    //     // console.log("setting new id=", rn)
+    //     localStorage.setItem("bid", id);
+    // }else{
+    //     console.log(id)
+    // }
     document.getElementById('overlay').style.display = 'none';
     // console.log(    localStorage.getItem("lastname")    )
     // Display the hidden content
@@ -28,7 +20,7 @@ function identify(e) {
     var likeTravelling = form["likeTravelling"].value;
     var maritialStatus = form["maritialStatus"].value;
     var economicSituation = form["economicSituation"].value;
-    analytics.identify(id, {
+    analytics.identify("12345", {
         job: job,
         leadSource: 'Newsletter',
         is_first_session: 'true',
