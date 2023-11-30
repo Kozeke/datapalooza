@@ -1,13 +1,13 @@
 function identify(e) {
     e.preventDefault();
-    var id = localStorage.getItem("id")
-    if (!checkLocalStorageValue()){
-        id = Math.floor((Math.random() * 1000000) + 1);
-        // console.log("setting new id=", rn)
-        localStorage.setItem("id", id);
-    }else{
-        console.log(id)
-    }
+    // var id = localStorage.getItem("id")
+    // if (!checkLocalStorageValue()){
+    //     id = Math.floor((Math.random() * 1000000) + 1);
+    //     // console.log("setting new id=", rn)
+    //     localStorage.setItem("id", id);
+    // }else{
+    //     console.log(id)
+    // }
     // Remove the translucent overlay
     document.getElementById('overlay').style.display = 'none';
 
