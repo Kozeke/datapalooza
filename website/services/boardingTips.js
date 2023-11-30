@@ -11,11 +11,11 @@ function identify(e) {
     e.preventDefault();
     // console.log("cl")/
     // Remove the translucent overlay
-    var id = localStorage.getItem("id")
+    var id = localStorage.getItem("bid")
     if (!checkLocalStorageValue()){
         id = Math.floor((Math.random() * 1000000) + 1);
         // console.log("setting new id=", rn)
-        localStorage.setItem("id", id);
+        localStorage.setItem("bid", id);
     }else{
         console.log(id)
     }
